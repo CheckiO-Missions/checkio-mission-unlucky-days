@@ -37,3 +37,7 @@ nosetests.xml
 
 .DS_Store
 __VERSION__.py
+
+# vim
+*.swp
+*.ropeproject
