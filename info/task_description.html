@@ -19,8 +19,16 @@
         <strong>Example:</strong>
     </p>
     <textarea data-code="python">
-checkio(2015) == 3
-checkio(1986) == 1</textarea>
+</textarea>
+{% if interpreter.slug == "js-node" %}
+<pre class="brush: javascript">unluckyDays(2015) == 3
+unluckyDays(1986) == 1
+</pre>
+{% else %}
+<pre class="brush: python">checkio(2015) == 3
+checkio(1986) == 1
+</pre>
+{% endif %}
 </div>
 
 <p>
